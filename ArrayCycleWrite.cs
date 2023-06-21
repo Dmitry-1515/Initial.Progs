@@ -11,7 +11,7 @@ namespace Practice
 {
     class Program
     {
-        // Вывести на консоль элементы массива при помощи рекурсии
+        // Вывести на консоль элементы массива при помощи цикла
         
         static void Main()
         {
@@ -21,9 +21,9 @@ namespace Practice
 
             Console.WriteLine("\nВывод массива:");
 
-            // Запускаем цикл for, проходя массив в обратном порядке
+            // Запускаем цикл for
 
-            for (int i = myArray.Length; i >= 0; i--)
+            for (int i = 0; i <= myArray.Length; i++)
             {
                 Console.WriteLine(myArray[i]);
             }
