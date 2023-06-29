@@ -23,7 +23,7 @@ namespace Practice
 
             string data1 = Console.ReadLine();
 
-            // Declare two variables and initialise them by method Parse
+            // Declare two variables and initialise it by method Parse
             
             int a = int.Parse(data);
 
