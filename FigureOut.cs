@@ -11,6 +11,7 @@ namespace Practice
 {
     class Program
     {
+        // Get number to console with 2 figures after comma
         static void Main()
         {
             // Вводим число с консоли
