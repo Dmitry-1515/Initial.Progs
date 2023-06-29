@@ -9,25 +9,37 @@ using System.Text;
 
 namespace Practice
 {
+    // Создаём класс Student со своими полями
+
+    class Student
+    {
+        public string Name;
+    }
+    
     class Program
     {
-        // Вывести на консоль элементы массива при помощи рекурсии
+        static Student GetStudent()
+        {
+            // Объявляем объект класса Student
+            
+            var student = new Student();
+
+            // Присваиваем полю объекта значение
+
+            student.Name = "Мартын";
+
+            // Возвращаем объект student
+
+            return student;
+        }
         
         static void Main()
         {
-            // Объявляем и инициализируем массив
+            // Объявляем объект класса Student
 
-            int[] myArray = { 1, 4, 6, 2, 5 };
+            var firstStudent = GetStudent();
 
-            Console.WriteLine("\nВывод массива:");
-
-            // Запускаем цикл for, проходя массив в обратном порядке
-
-            for (int i = myArray.Length; i >= 0; i--)
-            {
-                Console.WriteLine(myArray[i]);
-            }
-            Console.ReadLine();
+            Print(firstStudent);
         }
 
     }
