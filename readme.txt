@@ -1,2 +1,2 @@
-Здесь собраны файлы, подготовленные при выполнении различных упражнений и задач.
-Here are files, prepared under solution of different tasks and routhines.
+Здесь собраны файлы, которые я подготовил при выполнении различных упражнений и задач.
+Here are files that I prepared under solution of different tasks and routhines.
