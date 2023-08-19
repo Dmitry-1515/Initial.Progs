@@ -13,24 +13,15 @@ namespace Practice
 
     class Program
     {
-        static int Sum(int[] myArray, int i = 0)
-        {
-            if (i >= myArray.Length)
-                return 0;
-
-            return myArray[i] + Sum(myArray, i + 1);
-
-        }
-
         static void Main()
         {
-            // Declaring and initializing a 5-elements array 
+            // Declaring and initializing a 6-elements array 
 
             int[] myArray = { 1, 4, 6, 2, 6, 8 };
 
-            int result = Sum(myArray);
+            int num5 = myArray[4];
 
-            Console.WriteLine(result);
+            Console.WriteLine(num5);
         }
 
     }
